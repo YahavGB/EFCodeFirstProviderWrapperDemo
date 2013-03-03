@@ -1,0 +1,7 @@
+C:\Users\gbyah_000\Documents\ASP.NET\EFPlugins\C#\EFTracingProvider\bin\Release\EFTracingProvider.dll
+C:\Users\gbyah_000\Documents\ASP.NET\EFPlugins\C#\EFTracingProvider\bin\Release\EFTracingProvider.pdb
+C:\Users\gbyah_000\Documents\ASP.NET\EFPlugins\C#\EFTracingProvider\bin\Release\EFProviderWrapperToolkit.dll
+C:\Users\gbyah_000\Documents\ASP.NET\EFPlugins\C#\EFTracingProvider\bin\Release\EFProviderWrapperToolkit.pdb
+C:\Users\gbyah_000\Documents\ASP.NET\EFPlugins\C#\EFTracingProvider\obj\Release\EFTracingProvider.csprojResolveAssemblyReference.cache
+C:\Users\gbyah_000\Documents\ASP.NET\EFPlugins\C#\EFTracingProvider\obj\Release\EFTracingProvider.dll
+C:\Users\gbyah_000\Documents\ASP.NET\EFPlugins\C#\EFTracingProvider\obj\Release\EFTracingProvider.pdb

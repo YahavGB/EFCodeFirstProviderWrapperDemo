@@ -1,0 +1,75 @@
+SELECT 
+[Limit1].[CustomerID] AS [CustomerID], 
+[Limit1].[CompanyName] AS [CompanyName], 
+[Limit1].[ContactName] AS [ContactName], 
+[Limit1].[ContactTitle] AS [ContactTitle], 
+[Limit1].[Phone] AS [Phone], 
+[Limit1].[Fax] AS [Fax], 
+[Limit1].[C1] AS [C1], 
+[Limit1].[Address] AS [Address], 
+[Limit1].[City] AS [City], 
+[Limit1].[Region] AS [Region], 
+[Limit1].[PostalCode] AS [PostalCode], 
+[Limit1].[Country] AS [Country]
+FROM ( SELECT TOP (2) 
+	[Extent1].[CustomerID] AS [CustomerID], 
+	[Extent1].[CompanyName] AS [CompanyName], 
+	[Extent1].[ContactName] AS [ContactName], 
+	[Extent1].[ContactTitle] AS [ContactTitle], 
+	[Extent1].[Address] AS [Address], 
+	[Extent1].[City] AS [City], 
+	[Extent1].[Region] AS [Region], 
+	[Extent1].[PostalCode] AS [PostalCode], 
+	[Extent1].[Country] AS [Country], 
+	[Extent1].[Phone] AS [Phone], 
+	[Extent1].[Fax] AS [Fax], 
+	1 AS [C1]
+	FROM [dbo].[Customers] AS [Extent1]
+	WHERE [Extent1].[CustomerID] LIKE N'ALFKI%'
+)  AS [Limit1]
+
+SELECT 
+CASE WHEN ( NOT (([Project1].[C1] = 1) AND ([Project1].[C1] IS NOT NULL))) THEN '0X' ELSE '0X0X' END AS [C1], 
+[Extent1].[OrderID] AS [OrderID], 
+[Extent1].[CustomerID] AS [CustomerID], 
+[Extent1].[EmployeeID] AS [EmployeeID], 
+[Extent1].[OrderDate] AS [OrderDate], 
+[Extent1].[RequiredDate] AS [RequiredDate], 
+[Extent1].[ShippedDate] AS [ShippedDate], 
+[Extent1].[Freight] AS [Freight], 
+[Extent1].[ShipName] AS [ShipName], 
+[Extent1].[ShipAddress] AS [ShipAddress], 
+[Extent1].[ShipCity] AS [ShipCity], 
+[Extent1].[ShipRegion] AS [ShipRegion], 
+[Extent1].[ShipPostalCode] AS [ShipPostalCode], 
+[Extent1].[ShipCountry] AS [ShipCountry], 
+CASE WHEN ( NOT (([Project1].[C1] = 1) AND ([Project1].[C1] IS NOT NULL))) THEN CAST(NULL AS varchar(1)) ELSE [Project1].[CustomsDescription] END AS [C2], 
+CASE WHEN ( NOT (([Project1].[C1] = 1) AND ([Project1].[C1] IS NOT NULL))) THEN CAST(NULL AS decimal(19,4)) ELSE [Project1].[ExciseTax] END AS [C3]
+FROM  [dbo].[Orders] AS [Extent1]
+LEFT OUTER JOIN  (SELECT 
+	[Extent2].[OrderID] AS [OrderID], 
+	[Extent2].[CustomsDescription] AS [CustomsDescription], 
+	[Extent2].[ExciseTax] AS [ExciseTax], 
+	cast(1 as bit) AS [C1]
+	FROM [dbo].[InternationalOrders] AS [Extent2] ) AS [Project1] ON [Extent1].[OrderID] = [Project1].[OrderID]
+WHERE [Extent1].[CustomerID] = @EntityKeyValue1
+-- EntityKeyValue1 (dbtype=StringFixedLength, size=5, direction=Input) = "ALFKI"
+
+update [dbo].[Customers]
+set [ContactName] = @0
+where ([CustomerID] = @1)
+
+-- @0 (dbtype=String, size=30, direction=Input) = "Change100139640"
+-- @1 (dbtype=StringFixedLength, size=5, direction=Input) = "ALFKI"
+
+insert [dbo].[Customers]([CustomerID], [CompanyName], [ContactName], [ContactTitle], [Address], [City], [Region], [PostalCode], [Country], [Phone], [Fax])
+values (@0, @1, @2, null, null, null, null, null, null, null, null)
+
+-- @0 (dbtype=StringFixedLength, size=5, direction=Input) = "BELLA"
+-- @1 (dbtype=String, size=40, direction=Input) = "Bella Vision"
+-- @2 (dbtype=String, size=30, direction=Input) = "Bella Bellissima"
+
+delete [dbo].[Customers]
+where ([CustomerID] = @0)
+-- @0 (dbtype=StringFixedLength, size=5, direction=Input) = "BELLA"
+

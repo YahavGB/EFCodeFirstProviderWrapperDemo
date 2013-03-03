@@ -1,0 +1,9 @@
+C:\Users\gbyah_000\Documents\ASP.NET\EFPlugins\C#\EFCachingProvider.Tests\bin\Debug\EFCachingProvider.Tests.dll
+C:\Users\gbyah_000\Documents\ASP.NET\EFPlugins\C#\EFCachingProvider.Tests\bin\Debug\EFCachingProvider.Tests.pdb
+C:\Users\gbyah_000\Documents\ASP.NET\EFPlugins\C#\EFCachingProvider.Tests\bin\Debug\EFCachingProvider.dll
+C:\Users\gbyah_000\Documents\ASP.NET\EFPlugins\C#\EFCachingProvider.Tests\bin\Debug\EFProviderWrapperToolkit.dll
+C:\Users\gbyah_000\Documents\ASP.NET\EFPlugins\C#\EFCachingProvider.Tests\bin\Debug\EFCachingProvider.pdb
+C:\Users\gbyah_000\Documents\ASP.NET\EFPlugins\C#\EFCachingProvider.Tests\bin\Debug\EFProviderWrapperToolkit.pdb
+C:\Users\gbyah_000\Documents\ASP.NET\EFPlugins\C#\EFCachingProvider.Tests\obj\Debug\EFCachingProvider.Tests.csprojResolveAssemblyReference.cache
+C:\Users\gbyah_000\Documents\ASP.NET\EFPlugins\C#\EFCachingProvider.Tests\obj\Debug\EFCachingProvider.Tests.dll
+C:\Users\gbyah_000\Documents\ASP.NET\EFPlugins\C#\EFCachingProvider.Tests\obj\Debug\EFCachingProvider.Tests.pdb

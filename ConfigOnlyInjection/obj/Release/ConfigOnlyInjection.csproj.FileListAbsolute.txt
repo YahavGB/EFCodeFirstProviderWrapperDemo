@@ -1,0 +1,13 @@
+C:\Users\gbyah_000\Documents\ASP.NET\EFPlugins\C#\ConfigOnlyInjection\bin\Release\NorthwindEFModel.csdl
+C:\Users\gbyah_000\Documents\ASP.NET\EFPlugins\C#\ConfigOnlyInjection\bin\Release\NorthwindEFModel.msl
+C:\Users\gbyah_000\Documents\ASP.NET\EFPlugins\C#\ConfigOnlyInjection\bin\Release\NorthwindEFModel.WithTracing.ssdl
+C:\Users\gbyah_000\Documents\ASP.NET\EFPlugins\C#\ConfigOnlyInjection\bin\Release\ConfigOnlyInjection.exe.config
+C:\Users\gbyah_000\Documents\ASP.NET\EFPlugins\C#\ConfigOnlyInjection\bin\Release\ConfigOnlyInjection.exe
+C:\Users\gbyah_000\Documents\ASP.NET\EFPlugins\C#\ConfigOnlyInjection\bin\Release\ConfigOnlyInjection.pdb
+C:\Users\gbyah_000\Documents\ASP.NET\EFPlugins\C#\ConfigOnlyInjection\bin\Release\EFProviderWrapperToolkit.dll
+C:\Users\gbyah_000\Documents\ASP.NET\EFPlugins\C#\ConfigOnlyInjection\bin\Release\EFTracingProvider.dll
+C:\Users\gbyah_000\Documents\ASP.NET\EFPlugins\C#\ConfigOnlyInjection\bin\Release\EFProviderWrapperToolkit.pdb
+C:\Users\gbyah_000\Documents\ASP.NET\EFPlugins\C#\ConfigOnlyInjection\bin\Release\EFTracingProvider.pdb
+C:\Users\gbyah_000\Documents\ASP.NET\EFPlugins\C#\ConfigOnlyInjection\obj\Release\ConfigOnlyInjection.csprojResolveAssemblyReference.cache
+C:\Users\gbyah_000\Documents\ASP.NET\EFPlugins\C#\ConfigOnlyInjection\obj\Release\ConfigOnlyInjection.exe
+C:\Users\gbyah_000\Documents\ASP.NET\EFPlugins\C#\ConfigOnlyInjection\obj\Release\ConfigOnlyInjection.pdb

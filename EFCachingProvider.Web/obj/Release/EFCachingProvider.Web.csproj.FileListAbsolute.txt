@@ -1,0 +1,9 @@
+C:\Users\gbyah_000\Documents\ASP.NET\EFPlugins\C#\EFCachingProvider.Web\bin\Release\EFCachingProvider.Web.dll
+C:\Users\gbyah_000\Documents\ASP.NET\EFPlugins\C#\EFCachingProvider.Web\bin\Release\EFCachingProvider.Web.pdb
+C:\Users\gbyah_000\Documents\ASP.NET\EFPlugins\C#\EFCachingProvider.Web\bin\Release\EFCachingProvider.dll
+C:\Users\gbyah_000\Documents\ASP.NET\EFPlugins\C#\EFCachingProvider.Web\bin\Release\EFProviderWrapperToolkit.dll
+C:\Users\gbyah_000\Documents\ASP.NET\EFPlugins\C#\EFCachingProvider.Web\bin\Release\EFCachingProvider.pdb
+C:\Users\gbyah_000\Documents\ASP.NET\EFPlugins\C#\EFCachingProvider.Web\bin\Release\EFProviderWrapperToolkit.pdb
+C:\Users\gbyah_000\Documents\ASP.NET\EFPlugins\C#\EFCachingProvider.Web\obj\Release\EFCachingProvider.Web.csprojResolveAssemblyReference.cache
+C:\Users\gbyah_000\Documents\ASP.NET\EFPlugins\C#\EFCachingProvider.Web\obj\Release\EFCachingProvider.Web.dll
+C:\Users\gbyah_000\Documents\ASP.NET\EFPlugins\C#\EFCachingProvider.Web\obj\Release\EFCachingProvider.Web.pdb
