@@ -8,8 +8,8 @@ Files & Changes
 
 This git project contains the original solution created by Microsoft (http://code.msdn.microsoft.com/EFProviderWrappers) in addition to a sample project I've created.
 I've made two changes to Microsoft's files:
-	- Edited EFCachedCommand: Added another constructor which accepts the wrapped provider invariant name.
-	- Edited EFTracingCommand: Added another constructor which accepts the wrapped provider invariant name.
+1. Edited EFCachedCommand: Added another constructor which accepts the wrapped provider invariant name.
+2. Edited EFTracingCommand: Added another constructor which accepts the wrapped provider invariant name.
 
 ExtendedDbContext
 ==============================
@@ -34,3 +34,4 @@ The ExtendedDbContext and sample project I've created subjected to the BSD Licen
 TODO & Knwon Bugs
 ==============================
 1. This project won't work with StackExchange MiniProfiler. It seems like they've used also wrapped connection with interrupt with Microsoft's wrappers.
+2. You MUST Set Database.SetInitializer<MyDbContext>(null); otherwise you'll end with ArgumentNullException.
